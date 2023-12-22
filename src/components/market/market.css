@@ -1,0 +1,66 @@
+.market{
+    background-color: #0F051D;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+.market-title{
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+.market-top {
+    margin-top: 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+    border-radius: 1rem;
+    padding: 1.5rem 3rem;
+}
+
+.market-top p {
+    font-weight: 500;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.market-top p:first-child {
+    padding-left: 4rem;
+    justify-content: flex-start;
+}
+.link {
+    text-decoration: none;
+}
+.pagination {
+    padding-top: 3rem;
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.pagination p {
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+
+.pagination p.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 1rem;
+    width: 3rem;
+    height: 3rem;
+    aspect-ratio: 1/1;
+    background-color: gray;
+}
+
+.pagination .previous {
+    margin-right: 1rem;
+}
+.pagination .next {
+    margin-left: 1rem;
+}

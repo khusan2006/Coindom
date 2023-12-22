@@ -1,0 +1,66 @@
+.about-section {
+  background-color: #0f051d;
+  color: #fff;
+  padding: 8rem 4rem 0 4rem;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.about-title {
+  font-size: 7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about-title span {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+}
+.box {
+  padding-top: 7rem;
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url("../../assets/choose-main.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30rem;
+}
+.box-left,
+.box-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.box-right {
+  align-items: flex-end;
+}
+.item {
+  display: flex;
+  padding: 2rem;
+  border-radius: 2.4rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2.4rem;
+  border: 1px solid rgba(131, 131, 131, 0.25);
+  gap: 1.5rem;
+  width: 60%;
+}
+.item-icon {
+  display: flex;
+  width: 8rem;
+  height: 6rem;
+  padding: 1.5rem;
+  align-items: center;
+  border-radius: 1.6rem;
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+}
+.item-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.item-text {
+  font-size: 1.7rem;
+}
