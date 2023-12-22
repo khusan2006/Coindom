@@ -1,0 +1,57 @@
+/* Navbar */
+header {
+  background-color: #130749;
+  padding: 2.5rem 7rem;
+  width: 100%;
+  z-index: 100;
+}
+.fixed {
+  position: fixed;
+  background-color: #0F051D;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  text-decoration: none;
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.links {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  gap: 4rem;
+  align-items: center;
+}
+
+.link a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+.link a:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+}
+
+.icons {
+  display: flex;
+  gap: 2rem;
+  color: white;
+}
+
+.icon {
+  cursor: pointer;
+
+}
+
+
