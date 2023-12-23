@@ -72,3 +72,22 @@ h1 span {
         transform: translateY(0);
     }
 }
+
+@media screen and (max-width: 750px) {
+    .hero-section {
+        padding: 8rem 3rem;
+    }
+    h1 {
+        font-size: 6.5rem;
+        line-height: 1.15;
+        font-weight: 600;
+    }
+    .currency {
+        display: none;
+    }
+
+    .currencies {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 3rem;
+    }
+}
