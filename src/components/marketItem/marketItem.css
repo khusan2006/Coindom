@@ -1,5 +1,4 @@
 .market-item {
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     border-bottom: 1px solid #fff;
@@ -27,4 +26,21 @@
     width: 5rem;
     aspect-ratio: 1/1;
     margin-right: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+    .market-item{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .market-item p {
+        display: none;
+    }
+
+    .market-item p:first-child {
+        display: flex;
+        padding-left: 0;
+    }
 }

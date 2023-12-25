@@ -10,7 +10,6 @@
 
 .market-top {
     margin-top: 1rem;
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-image: linear-gradient(25deg, #2600fc, #ff00ea);
@@ -63,4 +62,30 @@
 }
 .pagination .next {
     margin-left: 1rem;
+}
+
+
+@media screen and (max-width: 750px) {
+    .market-top{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .market-top p{
+        display: none;
+    }
+    .market-top p:first-child {
+        display: block;
+        padding: 0;
+    }
+   /* .table-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    overflow-x: auto;
+
+   } */
 }

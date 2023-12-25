@@ -36,17 +36,21 @@ const Market = () => {
       <h2 className='market-title'>
         Market Update
       </h2>
+      <div className="table-wrapper">
       <div className="market-top">
         <p>Currency</p>
         <p>Price</p>
         <p>24h change</p>
         <p>Market Cap</p>
       </div>
-      {currentCurrencies.map(currency => (
+  
+     {currentCurrencies.map(currency => (
         <NavLink className='link' to={`/${currency.name}`}>
             <MarketItem currency={currency}  key={currency.name} />
         </NavLink>
       ))}
+      </div>
+
 
       <div className='pagination'>
         <p className='previous' onClick={() => handleClick('previous')}>previous</p>
