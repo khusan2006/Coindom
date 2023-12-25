@@ -53,11 +53,11 @@ const Market = () => {
 
 
       <div className='pagination'>
-        <p className='previous' onClick={() => handleClick('previous')}>previous</p>
+        <p className='previous' onClick={() => handleClick('previous')}>&larr;</p>
         {currencies && new Array(pages).fill(0).map((_, index) => (
           <p onClick={() => {setCurrentPage(index); scrollMarket()}} key={index} className={`${currentPage === index ? 'active' : ''}`}>{index + 1 }</p>
         ))}
-        <p className='next' onClick={() => handleClick('next')}>next</p>
+        <p className='next' onClick={() => handleClick('next')}>&rarr;</p>
       </div>
     </section>
   )

@@ -79,6 +79,11 @@
         display: block;
         padding: 0;
     }
+    .pagination {
+        gap: 1.5rem;
+    }
+
+ 
    /* .table-wrapper {
     width: 100%;
     height: auto;
@@ -88,4 +93,10 @@
     overflow-x: auto;
 
    } */
+}
+
+@media screen and (max-width: 500px) {
+    .market-title{
+        font-size: 3rem;
+    }
 }
