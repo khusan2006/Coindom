@@ -53,3 +53,10 @@ footer {
   width: 3.5rem;
   height: 3.5rem;
 }
+
+@media screen and (max-width: 750px) {
+  footer{
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
