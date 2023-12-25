@@ -39,7 +39,6 @@
 }
 .item {
   display: flex;
-  padding: 2rem;
   border-radius: 2.4rem;
   background-color: rgba(255, 255, 255, 0.05);
   padding: 2.4rem;
@@ -77,4 +76,23 @@
     justify-content: center;
     align-items: center;
   }
+  .item {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  .item-title{
+    font-size: 2rem;
+  }
+  .item-text{
+    font-size: 1.6rem;
+  }
+
+
 }
+
