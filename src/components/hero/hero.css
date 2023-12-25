@@ -91,3 +91,12 @@ h1 span {
         row-gap: 3rem;
     }
 }
+
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 5.5rem;
+    }
+    .hero-section {
+        padding-bottom: 5rem;
+    }
+}
