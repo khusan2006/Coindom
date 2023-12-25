@@ -64,3 +64,17 @@
 .item-text {
   font-size: 1.7rem;
 }
+
+
+@media screen and (max-width: 750px) {
+  .box{
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 45rem;
+    background-size: 24rem;
+  }
+  .box-left, .box-right {
+    justify-content: center;
+    align-items: center;
+  }
+}
