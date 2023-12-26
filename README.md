@@ -7,7 +7,7 @@
 The website is connected to Coinranking api, which is a popular source of data for cryptocurrency information. Coinranking provides data on thousands of cryptocurrencies, including their current price, historical price data, trading volume, market cap, and other important metrics. By using this API, the website can provide users with real-time information about the latest cryptocurrency prices and market trends.
 </p>
 
-👉 Live Demo: <a href='htttps://khusan-coindom.netlify.app'>Coindom Demo</a>
+👉 Live Demo: <a href='https://khusan-coindom.netlify.app'>Coindom Demo</a>
 
 <h3>Techonlogies used</h3>
 
