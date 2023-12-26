@@ -24,7 +24,7 @@ const InfoPage = () => {
           <p>
             24h Change:{" "}
             <span className={data.change.includes("-") ? "red" : "green"}>
-              ${data.change}
+              %{data.change}
             </span>
           </p>
           <p>
