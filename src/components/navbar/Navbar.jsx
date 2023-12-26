@@ -33,16 +33,16 @@ const Navbar = ({isScrolled}) => {
          <ul className={`mobile-menu ${isOpen && 'open'}`}>
           <IconX className="close-btn" onClick={() => setIsOpen(false)}/>
          <li className="mobile-link">
-           <a href="#home">Home</a>
+           <a onClick={() => setIsOpen(false)} href="#home">Home</a>
          </li>
          <li className="mobile-link">
-           <a href="#market">Market</a>
+           <a onClick={() => setIsOpen(false)} href="#market">Market</a>
          </li>
          <li className="mobile-link">
-           <a href="#choose">Choose Us</a>
+           <a onClick={() => setIsOpen(false)} href="#choose">Choose Us</a>
          </li>
          <li className="mobile-link">
-           <a href="#join">Join</a>
+           <a onClick={() => setIsOpen(false)} href="#join">Join</a>
          </li>
        </ul>
       
