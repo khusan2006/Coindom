@@ -58,3 +58,16 @@
     font-size: 5rem;
     font-weight: 700;
 }
+
+@media screen and (max-width: 750px) {
+    .data-section {
+        flex-direction: column;
+    }
+
+    .data-top {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2.5rem;
+    }
+    
+}
