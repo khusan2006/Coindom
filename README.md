@@ -2,32 +2,30 @@
 
 <h2>Description</h2>
 
-<p><b>Coindom</b> is a website that allows users to search for information about various cryptocurrencies in real-time. The website is designed to provide users with accurate and up-to-date information about the price, market cap, trading volume, and other key metrics of cryptocurrencies. <br/>
-
-The website is connected to Coinranking api, which is a popular source of data for cryptocurrency information. Coinranking provides data on thousands of cryptocurrencies, including their current price, historical price data, trading volume, market cap, and other important metrics. By using this API, the website can provide users with real-time information about the latest cryptocurrency prices and market trends.
+<p>Welcome to the <b>FAST REACT PIZZA CO.</b> website repository! This is a web application that allows users to conveniently order their favorite pizzas online. Whether you're a pizza enthusiast or just craving a delicious slice, our website provides a seamless and user-friendly experience for placing your pizza orders.
 </p>
 
-👉 Live Demo: <a href='https://khusan-coindom.netlify.app'>Coindom Demo</a>
+👉 Live Demo: <a href='https://khusan-coindom.netlify.app'>FAST REACT PIZZA CO. Demo</a>
 
 <h3>Techonlogies used</h3>
 
 » React JS <br>
 » CSS <br>
 » React-router-dom <br>
-» tabler-icons <br>
-» React Spinners <br>
-» Coinranking API <br>
+» Redux <br>
+
 
 <br>
 
 <h2>What I have learnt</h2>
 <br>
-»  how to make text color linear gradient<br>
-» how to implement pagination<br>
+» How to use react-router-dom to fetch data or mutate data<br>
+» How to use thunks in redux<br>
+» How to use caseReducer in redux<br>
 
 <h2>What was challenging</h2>
 <br>
-»  implementing pagination<br>
+»  implementing data fetching with react-router-dom<br>
 
 
 
